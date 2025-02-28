@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast Report</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <div class="container">
+        <h2>🌦️Daily Weather Report</h2>
+        <p>Welcome to Daily Weather Report, your go-to website for tracking the day's most important weather details! Whether you're planning a trip, preparing for unexpected storms, or just curious about today’s forecast, this tool will generate a quick and simple report based on randomly generated weather data.</p><br>
+        <p>Every morning, meteorologists analyze weather patterns to provide the most accurate forecast. However, nature is unpredictable, and sometimes, conditions change in unexpected ways.
+
+            With the Daily Weather Report, you’ll receive a unique forecast each time you click "Generate," simulating real-world weather variations. The data is presented in a simple, structured format, helping you stay prepared for the day ahead.</p>
+        <button onclick="generateWeather()">Generate</button>
+
+        <div class="report-boxes">
+            <div class="box">
+                <p>Temperature</p><br><hr><br>
+                <p id="temp">--</p>
+            </div>
+            <div class="box">
+                <p>Meteorologist Initial</p><br><hr><br>
+                <p id="meteorologist">--</p>
+            </div>
+            <div class="box">
+                <p>Storm Duration</p><br><hr><br>
+                <p id="storm">--</p>
+            </div>
+        </div>
+    </div>
+    <script src="script1.js"></script>
+</body>
+</html>
+
